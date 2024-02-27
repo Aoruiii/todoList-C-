@@ -1,0 +1,14 @@
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/bin/Debug/net8.0/todo list
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/bin/Debug/net8.0/todo list.deps.json
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/bin/Debug/net8.0/todo list.runtimeconfig.json
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/bin/Debug/net8.0/todo list.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/bin/Debug/net8.0/todo list.pdb
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.AssemblyInfoInputs.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.AssemblyInfo.cs
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.csproj.CoreCompileInputs.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/refint/todo list.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.pdb
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/todo list.genruntimeconfig.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/todo list/obj/Debug/net8.0/ref/todo list.dll

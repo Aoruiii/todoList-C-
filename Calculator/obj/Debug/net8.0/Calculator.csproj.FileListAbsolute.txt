@@ -1,0 +1,14 @@
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/bin/Debug/net8.0/Calculator
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/bin/Debug/net8.0/Calculator.deps.json
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/bin/Debug/net8.0/Calculator.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/bin/Debug/net8.0/Calculator.pdb
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.pdb
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+/Users/aorui.tan/Desktop/Web Developer/C#/C# Apps/Calculator/obj/Debug/net8.0/ref/Calculator.dll
