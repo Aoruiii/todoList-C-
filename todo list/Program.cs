@@ -43,22 +43,29 @@ void AddTodo(){
 
     string todo = Console.ReadLine();
 
+    if(!IsTodoValid(todo)){AddTodo();}
+
+    todos.Add(todo);
+    Console.WriteLine($"TODO successfully added:{todo}");
+
+}
+
+bool IsTodoValid(string todo) {
     if (todo.Length==0){
         Console.WriteLine("The description cannot be empty.");
-        AddTodo();
-    } else if(todos.Contains(todo)){
+        return false;
+    } 
+    if(todos.Contains(todo)){
         Console.WriteLine("The description must be unique.");
-        AddTodo();
-    } else {todos.Add(todo);
-    Console.WriteLine($"TODO successfully added:{todo}");
+        return false;
     }
+    return true;
 }
 
 void ReadTodos() {
     if(todos.Count == 0){
         Console.WriteLine("No TODOs have been added yet.");
-    }
-    else {
+    } else {
         for(int i=0;i<todos.Count;i++) {
         Console.WriteLine($"{i+1}. {todos[i]}");
     }
@@ -66,26 +73,41 @@ void ReadTodos() {
 }
 
 void RemoveTodo() {
-    Console.WriteLine("Select the index of the TODO you want to remove:");
-    ReadTodos();
-    if(todos.Count != 0) {
-        string userRemoveIndex = Console.ReadLine();
-
-        if(userRemoveIndex.Length ==0) {
-            Console.WriteLine("Selected index cannot be empty.");
-            RemoveTodo();
-        }
-
-        bool isIndexParsed = int.TryParse(userRemoveIndex,out int index);
-
-        if(!isIndexParsed || index > todos.Count || index==0) { //index is not integer or not in the proper range
-            Console.WriteLine("The given index is not valid.");
-            RemoveTodo();
-        } else {
-            Console.WriteLine($"TODO removed: {todos[index-1]}");
-            todos.RemoveAt(index-1);
-            return;
-        }
+    if(todos.Count == 0) {
+        Console.WriteLine("No TODOs have been added yet.");
+        return;
     }
+
+    Console.WriteLine("Select the index of the TODO you want to remove:");
+
+    ReadTodos();
+
+    string userRemoveIndex = Console.ReadLine();
+
+   if(ValidateIndex(userRemoveIndex) != 0){
+        int index = ValidateIndex(userRemoveIndex);
+        Console.WriteLine($"TODO removed: {todos[index-1]}");
+        todos.RemoveAt(index-1);
+    } else {
+        RemoveTodo();
+    }
+
+}
+
+int ValidateIndex(string userIndex) {
+    
+    if(userIndex.Length ==0) {
+        Console.WriteLine("Selected index cannot be empty.");
+        return 0;
+    }
+
+    bool isIndexParsed = int.TryParse(userIndex,out int index);
+
+    if(!isIndexParsed || index > todos.Count || index==0) { //index is not integer or not in the proper range
+        Console.WriteLine("The given index is not valid.");
+        return 0;
+    }
+    
+    return index;
 
 }
